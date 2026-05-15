@@ -86,6 +86,7 @@ function candidateApiBases(preferred = "") {
     preferred,
     localStorage.getItem(KEY_API_BASE),
     host,
+    "https://aazhs-mindtone-api.hf.space",
     "http://127.0.0.1:8000",
     "http://localhost:8000",
   ].map(normalizeApiBase).filter(Boolean))];
