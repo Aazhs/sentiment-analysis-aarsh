@@ -137,6 +137,43 @@
   flex: 1;
 }
 
+.gemini-key-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-top: 0.4rem;
+}
+
+.gemini-key-row input {
+  flex: 1;
+}
+
+.remove-key-btn {
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.remove-key-btn:hover {
+  background: #fecaca;
+  color: #7f1d1d;
+}
+
+.btn-sm {
+  padding: 0.35rem 0.65rem !important;
+}
+
+.additional-keys-section {
+  margin: 0.5rem 0;
+  display: grid;
+  gap: 0.2rem;
+}
+
 .fullscreen-modal .modal-full-content {
   position: absolute;
   top: 1.4rem;
